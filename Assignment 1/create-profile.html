@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Administration Portal</title>
+<meta charset="UTF-8">
+<meta name="description" content="HTML structure for Student Administration Portal">
+<link href="css/style-createprofile.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class = "background-image"></div>
+<style>
+    body {
+      background-image: url('/Users/macbook/Documents/School/Web Tech/Assignment 1/img/background4.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+ <div class="wrapper">
+    <div class="header">
+        <nav>
+         <a href="index.html">
+           <img src="img/logo.png" alt="logo"
+                    style="width:180px;height:180px;">
+         </a>
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="create-profile.html">Create Profile</a></li>
+             <li><a href="view-performance.html">View Performances</a></li>
+             <li><a href="About-us.html">About us</a></li>
+             <li><a href="Contact-us.html">Contact us</a></li>
+         </ul>
+         </nav>
+         
+      <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+          <h1><a rel="dofollow">Create Profile</a></h1> 
+        </div>
+          <h5>View and manage information about your courses, grades, fees and more.</h5>
+        <div class="formbg-outer">
+          <div class="formbg">
+            <div class="formbg-inner padding-horizontal--48">
+              <span class="padding-bottom--15">Create your account</span>
+              <form id="stripe-login">
+                <div class="field padding-bottom--24">
+                  <label for="fname">First Name</label>
+                  <input type="fname" name="fname">
+                </div>
+                <div class="field padding-bottom--24">
+                    <label for="lname">Last Name</label>
+                  <input type="lname" name="lname">
+                </div>
+                <div class="field padding-bottom--24">
+                    <label for="email">Email</label>
+                  <input type="email" name="Email">
+                </div>
+                <div class="field padding-bottom--24">
+                    <label for="studentid">Student ID</label>
+                  <input type="studentid" name="studentid">
+                </div>
+                <div class="field padding-bottom--24">
+                    <label for="WhichYear">Which year are you in?</label>
+                    <select id="WhichYear" name="WhichYear">
+                        <option value="Year1">Year 1</option>
+                        <option value="Year2">Year 2</option>
+                        <option value="Year3">Year 3</option>
+                        </select>
+                </div>
+                <div class="field padding-bottom--24">
+                    <label for="ComputerSystem">Which one do you prefer?</label>
+                    <select id="ComputerSystem" name="ComputerSystem">
+                        <option value="Mac">MAC</option>
+                        <option value="PC">PC</option>
+                    </select>
+                </div>
+                <div class="field padding-bottom--24">
+                    <label for="BriefIntro">Brief description about yourself</label>
+                  <input type="BriefIntro" name="BriefIntro">
+                </div>
+                <div class="field field-checkbox padding-bottom--24 flex-flex align-center">
+                  <label for="checkbox">
+                    <input type="checkbox" name="checkbox"> Stay signed in for a week
+                  </label>
+                </div>
+                <div class="field padding-bottom--24">
+                  <input type="submit" name="submit" value="Create Profile">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="footer-link padding-top--24">
+            <span>Already have an account? <a href="index.html">Log in</a></span>
+          </div>
+          <div class="row">
+             <center><img src="img/createprofile-img.png" alt="Image 1" width="50%;"> </center>
+            </div>
+        </div>
+      
+    </div>
+    </div>
+ </body>
+
+</html>
